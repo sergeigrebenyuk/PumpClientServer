@@ -1,4 +1,4 @@
-# PumpServer
+# Remotely controlled DIY peristaltic pump(s) and server app
 DIY WiFi-equipped peristaltic pumps remotely controlled by a Java app
 
 ### Overview
