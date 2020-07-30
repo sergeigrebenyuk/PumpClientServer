@@ -1,5 +1,5 @@
 # PumpServer
-WiFi-equipped peristaltic pumps remotely controlled by a Java app
+DIY WiFi-equipped peristaltic pumps remotely controlled by a Java app
 
 ### Overview
 ![](https://github.com/sergeigrebenyuk/PumpClientServer/blob/master/NetworkDiagram.png)
