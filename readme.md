@@ -17,7 +17,9 @@ Boxer pump head equipped with stepper motor (Part Number: 9600.760, 24V Stepper,
 ![Manufacturer link](https://www.boxerpumps.com/en/products/peristaltic-pumps-liquid/boxer-9qx-miniature-peristaltic-pump-series/)
 
 and excellent stepper motor driver TMC2100
-![](https://cdn.shopify.com/s/files/1/0239/9287/products/20160095_1.jpg?v=1551124254)
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxtcPbmj9cT7RT2vIOecWzXa7AXuDrOOoMiQ&usqp=CAU)
+
 ![Useful tips on usage](https://reprap.org/wiki/TMC2100)
 
 ### Wiring Diagram
