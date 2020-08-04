@@ -10,6 +10,8 @@ DIY WiFi-equipped peristaltic pumps remotely controlled by a Java app
 
 
 Pump is based on Boxer pump head equipped with stepper motor:
+
 ![](https://www.boxerpumps.com/typo3temp/fl_realurl_image/9qx-miniature-perstaltic-pump-62.jpg)
 
 ![Manufacturer link](https://www.boxerpumps.com/en/products/peristaltic-pumps-liquid/boxer-9qx-miniature-peristaltic-pump-series/)
+
