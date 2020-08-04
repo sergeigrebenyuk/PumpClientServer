@@ -1,7 +1,7 @@
 # Remotely controlled DIY peristaltic pump(s) and server app
 DIY WiFi-equipped peristaltic pumps remotely controlled by a Java app
 
-### Overview
+### System Overview
 ![](https://github.com/sergeigrebenyuk/PumpClientServer/blob/master/NetworkDiagram.png)
 
 
@@ -9,6 +9,7 @@ DIY WiFi-equipped peristaltic pumps remotely controlled by a Java app
 ![](https://github.com/sergeigrebenyuk/PumpClientServer/blob/master/PumpDiagram.png)
 
 
-
+Pump is based on Boxer pump head equipped with stepper motor:
 ![](https://www.boxerpumps.com/typo3temp/fl_realurl_image/9qx-miniature-perstaltic-pump-62.jpg)
+
 ![Manufacturer link](https://www.boxerpumps.com/en/products/peristaltic-pumps-liquid/boxer-9qx-miniature-peristaltic-pump-series/)
