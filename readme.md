@@ -23,7 +23,7 @@ The pump is based on Arduino UNO WiFi Rev.2 ...
 ... and the excellent stepper motor driver TMC2100
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxtcPbmj9cT7RT2vIOecWzXa7AXuDrOOoMiQ&usqp=CAU)
-![Useful tips on usage](https://reprap.org/wiki/TMC2100)
+[Useful tips on usage](https://reprap.org/wiki/TMC2100)
 
 Parts are assembled in a 3D-FDM printed case (SolidEdge 9.0 CAD files are in /Drawings folder)
 
