@@ -13,12 +13,14 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hard coded unique pump identifier and other parameters
-#define PUMP_ID     "Pump-01"
+#define PUMP_ID     "Pump-03"
 #define TICK_PERIOD 2000
 
 /////////////////////////////////////////////////////////////////////////////// 
 // Hard coded credentials for WiFi network
 #include "auth.h"
+//char ssid[]   = "Wifi SSID";        
+//char pass[]   = "Password";  
 
 ///////////////////////////////////////////////////////////////////////////////
 // Defining GPIO pins that are hardwired to TMC2100 driver board, LEDs, knobs 
@@ -304,10 +306,12 @@ void checkServer()
             int ind8 = str.indexOf(';', ind7+1 );
             pumpSettings.revPeriod = str.substring(ind7+1,ind8).toInt(); 
             manualSettings.revPeriod = pumpSettings.revPeriod;
-            
+                        
             EEPROM.put(sizeof(byte), pumpSettings); 
             EEPROM.put(sizeof(TPumpSettings), manualSettings); 
-            
+
+            Serial.println("------");
+            Serial.println(pumpSettings.revActiveTime);
             Serial.println(pumpSettings.revPeriod);
             
             sprintf(packetBuffer,"Params-ack;%s;%u;%u;%u;%s;%s;%u;",PUMP_ID,pumpSettings.flowRate,pumpSettings.revActiveTime,pumpSettings.scaleFactor,pumpSettings.remote?"remote":"manual",pumpSettings.dirFwd?"fwd":"rev",pumpSettings.revPeriod);
